@@ -1,0 +1,53 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.chat-thread {
+  width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-thread ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chat-thread li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-thread li:last-child {
+  border-bottom: none;
+}
+
+.chat-thread strong {
+  font-weight: bold;
+  color: #333;
+}
+
+.chat-thread button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chat-thread button:hover {
+  background-color: #3e8e41;
+}
+
+.chat-thread input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
